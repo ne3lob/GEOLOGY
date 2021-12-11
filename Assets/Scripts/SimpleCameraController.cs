@@ -32,7 +32,7 @@ namespace UnityTemplateProjects
                 Vector3 rotatedTranslation = Quaternion.Euler(pitch, yaw, roll) * translation;
 
                 x += rotatedTranslation.x;
-                y += rotatedTranslation.y;
+                y = rotatedTranslation.y;
                 z += rotatedTranslation.z;
             }
 
@@ -188,8 +188,8 @@ namespace UnityTemplateProjects
             if (IsCameraRotationAllowed())
             {
                 var mouseMovement = GetInputLookRotation() * Time.deltaTime * 5;
-                if (invertY)
-                    mouseMovement.y = -mouseMovement.y;
+                 if (invertY)
+                     mouseMovement.y = -mouseMovement.y;
                 
                 var mouseSensitivityFactor = mouseSensitivityCurve.Evaluate(mouseMovement.magnitude);
 
