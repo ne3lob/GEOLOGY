@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 16429959}
   - component: {fileID: 16429958}
   - component: {fileID: 16429957}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -326,7 +327,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &29518180
 GameObject:
@@ -341,7 +342,7 @@ GameObject:
   - component: {fileID: 29518183}
   - component: {fileID: 29518182}
   - component: {fileID: 29518181}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,6 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -438,7 +440,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49725967
 GameObject:
@@ -453,7 +455,7 @@ GameObject:
   - component: {fileID: 49725969}
   - component: {fileID: 49725968}
   - component: {fileID: 49725972}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -549,6 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -565,7 +568,7 @@ GameObject:
   - component: {fileID: 78391386}
   - component: {fileID: 78391385}
   - component: {fileID: 78391384}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,8 +602,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &78391385
 SphereCollider:
@@ -677,7 +681,7 @@ GameObject:
   - component: {fileID: 111796101}
   - component: {fileID: 111796100}
   - component: {fileID: 111796099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,8 +715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &111796100
 SphereCollider:
@@ -5791,6 +5796,7 @@ Transform:
   - {fileID: 493240494}
   - {fileID: 1226180189}
   - {fileID: 686597174}
+  - {fileID: 615071818}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5807,7 +5813,7 @@ GameObject:
   - component: {fileID: 449818356}
   - component: {fileID: 449818355}
   - component: {fileID: 449818354}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5841,8 +5847,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &449818355
 SphereCollider:
@@ -5919,7 +5926,7 @@ GameObject:
   - component: {fileID: 473420428}
   - component: {fileID: 473420427}
   - component: {fileID: 473420426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5939,6 +5946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -6016,7 +6024,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487401034
 GameObject:
@@ -6031,7 +6039,7 @@ GameObject:
   - component: {fileID: 487401037}
   - component: {fileID: 487401036}
   - component: {fileID: 487401035}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6051,6 +6059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -6128,7 +6137,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487439082
 GameObject:
@@ -10962,7 +10971,8 @@ GameObject:
   - component: {fileID: 493240497}
   - component: {fileID: 493240496}
   - component: {fileID: 493240495}
-  m_Layer: 0
+  - component: {fileID: 493240499}
+  m_Layer: 7
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10996,8 +11006,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &493240496
 SphereCollider:
@@ -11061,6 +11072,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493240493}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &493240499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493240493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605f60bca30f4a14ba37ba596ff36542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 615071818}
+  objScaleScript: {fileID: 493240493}
 --- !u!1 &499485471
 GameObject:
   m_ObjectHideFlags: 0
@@ -11094,6 +11119,7 @@ Transform:
   - {fileID: 1266252745}
   - {fileID: 111796098}
   - {fileID: 78391383}
+  - {fileID: 717337166}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11192,6 +11218,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591108403}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &615071817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615071818}
+  - component: {fileID: 615071819}
+  m_Layer: 0
+  m_Name: target (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615071818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615071817}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.5079346, y: 6.303349, z: 20.195976}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 337695433}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &615071819
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615071817}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &686597173
 GameObject:
   m_ObjectHideFlags: 0
@@ -11205,7 +11270,7 @@ GameObject:
   - component: {fileID: 686597177}
   - component: {fileID: 686597176}
   - component: {fileID: 686597175}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11239,8 +11304,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &686597176
 SphereCollider:
@@ -11304,6 +11370,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686597173}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &717337165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 717337166}
+  - component: {fileID: 717337167}
+  m_Layer: 0
+  m_Name: target (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &717337166
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717337165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 39.607002, y: 12.109367, z: 2.4863038}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 499485472}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &717337167
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717337165}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &780716936
 GameObject:
   m_ObjectHideFlags: 0
@@ -11317,7 +11422,7 @@ GameObject:
   - component: {fileID: 780716940}
   - component: {fileID: 780716939}
   - component: {fileID: 780716938}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11351,8 +11456,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &780716939
 SphereCollider:
@@ -11429,7 +11535,7 @@ GameObject:
   - component: {fileID: 807764504}
   - component: {fileID: 807764503}
   - component: {fileID: 807764502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11463,8 +11569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &807764503
 SphereCollider:
@@ -11541,7 +11648,7 @@ GameObject:
   - component: {fileID: 938601725}
   - component: {fileID: 938601724}
   - component: {fileID: 938601723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11575,8 +11682,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &938601724
 SphereCollider:
@@ -11653,7 +11761,7 @@ GameObject:
   - component: {fileID: 1004473506}
   - component: {fileID: 1004473505}
   - component: {fileID: 1004473509}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11749,8 +11857,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!1 &1079231102
 GameObject:
@@ -11785,6 +11894,7 @@ Transform:
   - {fileID: 449818353}
   - {fileID: 1105028554}
   - {fileID: 2062085476}
+  - {fileID: 1716267804}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11801,7 +11911,8 @@ GameObject:
   - component: {fileID: 1105028557}
   - component: {fileID: 1105028556}
   - component: {fileID: 1105028555}
-  m_Layer: 0
+  - component: {fileID: 1105028559}
+  m_Layer: 7
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11835,8 +11946,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &1105028556
 SphereCollider:
@@ -11900,6 +12012,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105028553}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1105028559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105028553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605f60bca30f4a14ba37ba596ff36542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 1716267804}
+  objScaleScript: {fileID: 1105028553}
 --- !u!1 &1140408197
 GameObject:
   m_ObjectHideFlags: 0
@@ -16802,7 +16928,7 @@ GameObject:
   - component: {fileID: 1226180192}
   - component: {fileID: 1226180191}
   - component: {fileID: 1226180190}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16836,8 +16962,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &1226180191
 SphereCollider:
@@ -16914,7 +17041,7 @@ GameObject:
   - component: {fileID: 1266252748}
   - component: {fileID: 1266252747}
   - component: {fileID: 1266252746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16948,8 +17075,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &1266252747
 SphereCollider:
@@ -17026,7 +17154,7 @@ GameObject:
   - component: {fileID: 1272697285}
   - component: {fileID: 1272697284}
   - component: {fileID: 1272697283}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17046,6 +17174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
   maxGrowth: 1
   minGrowth: 0.4
@@ -17123,7 +17252,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1314364438
 PrefabInstance:
@@ -17236,7 +17365,7 @@ GameObject:
   - component: {fileID: 1322190726}
   - component: {fileID: 1322190725}
   - component: {fileID: 1322190729}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17332,8 +17461,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!1 &1368414418
 GameObject:
@@ -17348,7 +17478,7 @@ GameObject:
   - component: {fileID: 1368414420}
   - component: {fileID: 1368414419}
   - component: {fileID: 1368414423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17444,8 +17574,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!1001 &1565675191
 PrefabInstance:
@@ -17551,86 +17682,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1612372348}
   - component: {fileID: 1612372347}
-  - component: {fileID: 1612372346}
-  - component: {fileID: 1612372345}
-  - component: {fileID: 1612372344}
   m_Layer: 0
-  m_Name: Sphere (4)
+  m_Name: target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1612372344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612372343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e307a915d353ce4d9e48feea60ee599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camGameObject: {fileID: 266051454}
-  speedGrowing: 0.1
-  maxGrowth: 1
-  minGrowth: 0.4
---- !u!135 &1612372345
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612372343}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1612372346
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612372343}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 6e9de124d0b67494a978c4cfcaa1ad52, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1612372347
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17647,11 +17705,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612372343}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.802066, y: 4.4282236, z: -0.68597686}
+  m_LocalPosition: {x: -19.64, y: 3.79, z: -0.806}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1922184636}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1704623429
 GameObject:
@@ -17666,7 +17724,7 @@ GameObject:
   - component: {fileID: 1704623433}
   - component: {fileID: 1704623432}
   - component: {fileID: 1704623431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17700,8 +17758,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &1704623432
 SphereCollider:
@@ -17765,6 +17824,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704623429}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1716267803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716267804}
+  - component: {fileID: 1716267805}
+  m_Layer: 0
+  m_Name: target (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716267804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716267803}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 41.142063, y: 12.109367, z: 2.799977}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 1079231103}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1716267805
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716267803}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1725328553
 GameObject:
   m_ObjectHideFlags: 0
@@ -17778,7 +17876,8 @@ GameObject:
   - component: {fileID: 1725328557}
   - component: {fileID: 1725328556}
   - component: {fileID: 1725328555}
-  m_Layer: 0
+  - component: {fileID: 1725328559}
+  m_Layer: 7
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17812,8 +17911,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &1725328556
 SphereCollider:
@@ -17877,6 +17977,148 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725328553}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1725328559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725328553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605f60bca30f4a14ba37ba596ff36542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 717337166}
+  objScaleScript: {fileID: 1725328553}
+--- !u!1 &1790819377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790819378}
+  - component: {fileID: 1790819383}
+  - component: {fileID: 1790819382}
+  - component: {fileID: 1790819381}
+  - component: {fileID: 1790819380}
+  - component: {fileID: 1790819379}
+  m_Layer: 7
+  m_Name: Sphere (4)1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790819378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.206, y: 4.4282236, z: -0.68597686}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 1922184636}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1790819379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605f60bca30f4a14ba37ba596ff36542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 1612372348}
+  objScaleScript: {fileID: 1790819377}
+--- !u!114 &1790819380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e307a915d353ce4d9e48feea60ee599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
+  speedGrowing: 0.1
+  maxGrowth: 1
+  minGrowth: 0.4
+--- !u!135 &1790819381
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1790819382
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6e9de124d0b67494a978c4cfcaa1ad52, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1790819383
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790819377}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1922184635
 GameObject:
   m_ObjectHideFlags: 0
@@ -17905,12 +18147,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 49725971}
-  - {fileID: 1612372348}
   - {fileID: 1272697287}
   - {fileID: 29518185}
   - {fileID: 487401039}
   - {fileID: 473420430}
   - {fileID: 16429961}
+  - {fileID: 1790819378}
+  - {fileID: 1612372348}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -17930,7 +18173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1966086928
 Light:
   m_ObjectHideFlags: 0
@@ -17942,7 +18185,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9137255, g: 0.8089282, b: 0.56078434, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -17980,7 +18223,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -22988,7 +23231,7 @@ GameObject:
   - component: {fileID: 2031248920}
   - component: {fileID: 2031248919}
   - component: {fileID: 2031248918}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23022,8 +23265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &2031248919
 SphereCollider:
@@ -23100,7 +23344,7 @@ GameObject:
   - component: {fileID: 2062085479}
   - component: {fileID: 2062085478}
   - component: {fileID: 2062085477}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23134,8 +23378,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camGameObject: {fileID: 266051454}
+  _goToPlayer: 0
   speedGrowing: 0.1
-  maxGrowth: 1
+  maxGrowth: 2
   minGrowth: 0.4
 --- !u!135 &2062085478
 SphereCollider:

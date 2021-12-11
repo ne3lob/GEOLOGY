@@ -14,6 +14,7 @@ public class ScaleScript : MonoBehaviour
 
     private float timer = 0.0f;
     private int seconds;
+    public bool _goToPlayer=false;
 
 
     void Start()
@@ -52,7 +53,9 @@ public class ScaleScript : MonoBehaviour
 
             if (timer > 5f)
             {
+                _goToPlayer = true;
                 timer = 0;
+                Debug.Log("BUM");
             }
         }
         else
