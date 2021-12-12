@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LsCaveMat2
+  m_Name: Ceiling
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
   m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
     _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
@@ -122,7 +122,7 @@ Material:
     - _HeightBlurMode: 0
     - _HeightBlurSamples: 8
     - _HeightBlurSize: 0.25
-    - _HeightStrength: 1.29
+    - _HeightStrength: 1.7
     - _Metallic: 0
     - _OcclusionStrength: 0.5
     - _Parallax: 0.005
@@ -144,7 +144,7 @@ Material:
     - _TessellationPhongShape: 0
     - _TessellationPostPro: 0
     - _TessellationScale: 1
-    - _TessellationTriangleClipBias: 0.1
+    - _TessellationTriangleClipBias: 1
     - _TessellationTriangleClipping: 1
     - _VertexColor: 0
     - _VertexColorBlending: 1

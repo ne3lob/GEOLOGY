@@ -25,7 +25,7 @@ public class VertexDisplacement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.name == "OVRHandPrefab")
+        if(collision.gameObject.CompareTag("Hand"))
         {
             toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + 0.1f);
         }

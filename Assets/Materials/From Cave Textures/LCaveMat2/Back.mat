@@ -20,11 +20,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LsCaveMat2
+  m_Name: Back
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
-  m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
-    _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
-    _VERTEX_COLOR_MULTIPLY
+  m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _HEIGHTMAP_BLUR_GAUSS _METALLICSPECGLOSSMAP
+    _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING
+    _TESSELLATION_EDGE _VERTEX_COLOR_MULTIPLY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -119,7 +119,7 @@ Material:
     - _GlossyReflections: 0
     - _HeightBase: 0
     - _HeightBlurGaussStandardDeviation: 0.024
-    - _HeightBlurMode: 0
+    - _HeightBlurMode: 2
     - _HeightBlurSamples: 8
     - _HeightBlurSize: 0.25
     - _HeightStrength: 1.29
