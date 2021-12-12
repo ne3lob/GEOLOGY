@@ -50,11 +50,11 @@
             fixed4 frag (v2f i) : SV_Target
             {
 
-				float panning = _Time.y * 0.0085;
+				float panning = 0;
 
                 // sample the texture
                 float3 frontClouds = tex2D(_MainTex, float2(i.uv.x, -i.uv.y + 0.51)+ float2(panning,      0.));
-			    float3 backClouds  = tex2D(_MainTex, float2(i.uv.x, -i.uv.y + 0.51)+ float2(panning*0.25, 0.));
+			    float3 backClouds  = tex2D(_MainTex, float2(i.uv.x, -i.uv.y + 0.51)+ float2(panning, 0.));
 
 				float3 col = frontClouds.rgb + backClouds.ggb;
 				col *= _ColorOne;

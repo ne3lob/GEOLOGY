@@ -660,13 +660,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e307a915d353ce4d9e48feea60ee599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPointOne: {fileID: 414446360}
-  targetPointTwo: {fileID: 1458935710}
-  targetPointThree: {fileID: 789968687}
   camGameObject: {fileID: 18583849}
-  timeToLerp: 10
-  targetScaleVectorBig: {x: 3, y: 3, z: 3}
-  targetScaleVectorSmall: {x: 1, y: 1, z: 1}
+  _goToPlayer: 0
+  speedGrowing: 0.1
+  maxGrowth: 3
+  minGrowth: 1
+  timeToConcentrate: 5
 --- !u!4 &1295974212
 Transform:
   m_ObjectHideFlags: 0
