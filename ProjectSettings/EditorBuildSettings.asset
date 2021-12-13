@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Prototype_handTracking Cave.unity
+    guid: fe555fe31dec78a47a5edd627094b8be
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 534ea3feb6d9ef84f837acd34e7b0a3d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4a513550947d49043bf692be38ea9a38, type: 2}
