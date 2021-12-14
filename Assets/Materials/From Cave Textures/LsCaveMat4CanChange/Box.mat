@@ -102,7 +102,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BumpScale: -0.79
+    - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -122,7 +122,7 @@ Material:
     - _HeightBlurMode: 0
     - _HeightBlurSamples: 8
     - _HeightBlurSize: 0.25
-    - _HeightStrength: 3.26
+    - _HeightStrength: 18.32
     - _Metallic: 0
     - _OcclusionStrength: 0.5
     - _Parallax: 0.08
