@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LsCaveMat2 2
+  m_Name: LsCaveMat2 5
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
   m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
     _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
@@ -36,11 +36,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 4a996bfa3793ace4f8a04f1495b8a432, type: 3}
+        m_Texture: {fileID: 2800000, guid: 45a35b16fa2d1ed46b16ea464fc5db1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3eee11dda3ae57d4b944fb6a69adcd3a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 25d1b9f2c2851834b8d58cbf303f6a9b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -60,23 +60,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HeightMap:
-        m_Texture: {fileID: 2800000, guid: bd972d074a58b4646a0aca3769db8427, type: 3}
+        m_Texture: {fileID: 2800000, guid: c08da9ff1af2aee4985fbfeb589dbd5f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4a996bfa3793ace4f8a04f1495b8a432, type: 3}
+        m_Texture: {fileID: 2800000, guid: 45a35b16fa2d1ed46b16ea464fc5db1b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: d50fab2889689c14cb023d073ec666a6, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc7450c60ba835f44ba4742a3a15028a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 1bc3212f525d37e4eae0fa8895bf97ba, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc7450c60ba835f44ba4742a3a15028a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: bd972d074a58b4646a0aca3769db8427, type: 3}
+        m_Texture: {fileID: 2800000, guid: c08da9ff1af2aee4985fbfeb589dbd5f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TessellationMap:
-        m_Texture: {fileID: 2800000, guid: a697a71ff7ec09e4cb749af0e5849292, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc7450c60ba835f44ba4742a3a15028a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -102,7 +102,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
-    - _BumpScale: -0.79
+    - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -122,7 +122,7 @@ Material:
     - _HeightBlurMode: 0
     - _HeightBlurSamples: 8
     - _HeightBlurSize: 0.25
-    - _HeightStrength: 0.71
+    - _HeightStrength: 0.3
     - _Metallic: 0
     - _OcclusionStrength: 0.5
     - _Parallax: 0.005
@@ -143,7 +143,7 @@ Material:
     - _TessellationMode: 1
     - _TessellationPhongShape: 0
     - _TessellationPostPro: 0
-    - _TessellationScale: 0.138
+    - _TessellationScale: 0.335
     - _TessellationTriangleClipBias: 0.1
     - _TessellationTriangleClipping: 1
     - _VertexColor: 0
