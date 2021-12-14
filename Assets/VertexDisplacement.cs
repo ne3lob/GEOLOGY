@@ -13,10 +13,10 @@ public class VertexDisplacement : MonoBehaviour
     bool coRout;
     float lerpValue;
     bool checkCollision;
-    float duration = 0.1f;
     float changeAmount = 0.01f;
-
-    [SerializeField] float displaceAmount = 0.4f;
+    [SerializeField] float duration = 1000000f;
+    [SerializeField] float displaceAmount = 0.3f;
+    [SerializeField] float dissapearMultiplier = 10f;
     void Start()
     {
         toDisplaceMat = gameObject.GetComponent<Renderer>().material;
@@ -28,7 +28,7 @@ public class VertexDisplacement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(toDisplaceMat.GetFloat("_HeightStrength") > heightInit + (displaceAmount * 10))
+        if(toDisplaceMat.GetFloat("_HeightStrength") > heightInit + (displaceAmount * dissapearMultiplier))
         {
             gameObject.SetActive(false);
         }
@@ -38,9 +38,7 @@ public class VertexDisplacement : MonoBehaviour
             var lerp = Mathf.PingPong(Time.time, duration) / duration;
             float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
             toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
-
-             
-            
+           
         }
     }
 
@@ -71,6 +69,16 @@ public class VertexDisplacement : MonoBehaviour
         }
         changeAmount = 0.01f;
     }
+   /* IEnumerator ChangeLerp()
+    {
+        var lerp = Mathf.PingPong(Time.time, duration) / duration;
+        float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
+        toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
+        if (newValue == displaceAmount)
+        {
+            checkCollision = false;
+        }
+    }*/
     private void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.CompareTag("Hand"))
@@ -82,4 +90,12 @@ public class VertexDisplacement : MonoBehaviour
 
         }
     }
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Hand"))
+        {
+            checkCollision = false;
+        }
+    }
+
 }
