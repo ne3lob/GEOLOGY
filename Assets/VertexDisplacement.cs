@@ -17,12 +17,14 @@ public class VertexDisplacement : MonoBehaviour
     [SerializeField] float duration = 1000000f;
     [SerializeField] float displaceAmount = 0.3f;
     [SerializeField] float dissapearMultiplier = 10f;
+    BoxCollider colliderToScale;
     void Start()
     {
         toDisplaceMat = gameObject.GetComponent<Renderer>().material;
         heightInit = toDisplaceMat.GetFloat("_HeightStrength");
         checkCollision = false;
         coRout = false;
+        colliderToScale = gameObject.GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -38,7 +40,10 @@ public class VertexDisplacement : MonoBehaviour
             var lerp = Mathf.PingPong(Time.time, duration) / duration;
             float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
             toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
-           
+            colliderToScale.size.Set(colliderToScale.size.x, colliderToScale.size.y +0.01f, colliderToScale.size.z) ;
+            colliderToScale.center.Set(colliderToScale.center.x, colliderToScale.center.y + 0.01f, colliderToScale.center.z);
+
+
         }
     }
 
