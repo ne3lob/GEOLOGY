@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: SkyboxMat
   m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _SUNDISK_HIGH_QUALITY
@@ -81,3 +82,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GroundColor: {r: 0.14117648, g: 0.14901961, b: 0.19215687, a: 1}
     - _SkyTint: {r: 0.1882353, g: 0.2, b: 0.23921569, a: 1}
+  m_BuildTextureStacks: []
