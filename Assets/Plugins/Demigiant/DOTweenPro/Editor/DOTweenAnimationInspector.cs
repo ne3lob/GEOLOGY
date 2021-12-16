@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿// Author: Daniele Giardini - http://www.demigiant.com
+=======
+// Author: Daniele Giardini - http://www.demigiant.com
+>>>>>>> origin/androidCaveTest1
 // Created: 2015/03/12 16:03
 
 using System;
@@ -15,7 +19,11 @@ using DOTweenSettings = DG.Tweening.Core.DOTweenSettings;
 #if true // UI_MARKER
 using UnityEngine.UI;
 #endif
+<<<<<<< HEAD
 #if false // TEXTMESHPRO_MARKER
+=======
+#if true // TEXTMESHPRO_MARKER
+>>>>>>> origin/androidCaveTest1
     using TMPro;
 #endif
 
@@ -41,7 +49,11 @@ namespace DG.DOTweenEditor
 #if true // PHYSICS_MARKER
                 typeof(Rigidbody),
 #endif
+<<<<<<< HEAD
 #if true // PHYSICS2D_MARKER
+=======
+#if false // PHYSICS2D_MARKER
+>>>>>>> origin/androidCaveTest1
                 typeof(Rigidbody2D),
 #endif
 #if true // UI_MARKER
@@ -53,7 +65,11 @@ namespace DG.DOTweenEditor
 #if true // PHYSICS_MARKER
                 typeof(Rigidbody),
 #endif
+<<<<<<< HEAD
 #if true // PHYSICS2D_MARKER
+=======
+#if false // PHYSICS2D_MARKER
+>>>>>>> origin/androidCaveTest1
                 typeof(Rigidbody2D),
 #endif
                 typeof(Transform)
@@ -63,7 +79,11 @@ namespace DG.DOTweenEditor
             { DOTweenAnimation.AnimationType.Scale, new[] { typeof(Transform) } },
             { DOTweenAnimation.AnimationType.Color, new[] {
                 typeof(Light),
+<<<<<<< HEAD
 #if true // SPRITE_MARKER
+=======
+#if false // SPRITE_MARKER
+>>>>>>> origin/androidCaveTest1
                 typeof(SpriteRenderer),
 #endif
 #if true // UI_MARKER
@@ -73,7 +93,11 @@ namespace DG.DOTweenEditor
             }},
             { DOTweenAnimation.AnimationType.Fade, new[] {
                 typeof(Light),
+<<<<<<< HEAD
 #if true // SPRITE_MARKER
+=======
+#if false // SPRITE_MARKER
+>>>>>>> origin/androidCaveTest1
                 typeof(SpriteRenderer),
 #endif
 #if true // UI_MARKER
@@ -119,7 +143,11 @@ namespace DG.DOTweenEditor
             { DOTweenAnimation.AnimationType.Text, new[] { typeof(tk2dTextMesh) } }
         };
 #endif
+<<<<<<< HEAD
 #if false // TEXTMESHPRO_MARKER
+=======
+#if true // TEXTMESHPRO_MARKER
+>>>>>>> origin/androidCaveTest1
         static readonly Dictionary<DOTweenAnimation.AnimationType, Type[]> _TMPAnimationTypeToComponent = new Dictionary<DOTweenAnimation.AnimationType, Type[]>() {
             { DOTweenAnimation.AnimationType.Color, new[] { typeof(TextMeshPro), typeof(TextMeshProUGUI) } },
             { DOTweenAnimation.AnimationType.Fade, new[] { typeof(TextMeshPro), typeof(TextMeshProUGUI) } },
@@ -139,7 +167,11 @@ namespace DG.DOTweenEditor
 #if false // TK2D_MARKER
             "Text",
 #endif
+<<<<<<< HEAD
 #if false // TEXTMESHPRO_MARKER
+=======
+#if true // TEXTMESHPRO_MARKER
+>>>>>>> origin/androidCaveTest1
             "Text",
 #endif
 #if true // UI_MARKER
@@ -599,7 +631,11 @@ namespace DG.DOTweenEditor
                 }
             }
 #endif
+<<<<<<< HEAD
 #if false // TEXTMESHPRO_MARKER
+=======
+#if true // TEXTMESHPRO_MARKER
+>>>>>>> origin/androidCaveTest1
             if (_TMPAnimationTypeToComponent.ContainsKey(_src.animationType)) {
                 foreach (Type t in _TMPAnimationTypeToComponent[_src.animationType]) {
                     srcTarget = targetGO.GetComponent(t);

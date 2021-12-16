@@ -8,7 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: VLBDummyMaterial
+<<<<<<< HEAD
   m_Shader: {fileID: 4800000, guid: a5937e3db15842648adbe639c7f4e500, type: 3}
+=======
+  m_Shader: {fileID: 4800000, guid: 4f530f2eb634ffe4d81ea5ff7edd564d, type: 3}
+>>>>>>> origin/androidCaveTest1
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

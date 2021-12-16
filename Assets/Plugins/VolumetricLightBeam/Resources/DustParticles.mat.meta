@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Plugins/VolumetricLightBeam/Resources/DustParticles.mat.meta
 guid: 8d20a6834f5625e4eba5372d38bf7e99
 timeCreated: 1510679888
 licenseType: Store
+========
+guid: 83c2ed844a8c74b779a4c823d16594b1
+>>>>>>>> origin/androidCaveTest1:Assets/Readme.asset.meta
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
-  assetBundleName: 
+  assetBundleName: sadasfasd
   assetBundleVariant: 

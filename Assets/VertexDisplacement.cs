@@ -1,0 +1,106 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using OculusSampleFramework;
+using Oculus;
+public class VertexDisplacement : MonoBehaviour
+{
+    // Start is called before the first frame update
+
+    GameObject toDisplace;
+    Material toDisplaceMat;
+    float heightInit;
+    bool coRout;
+    float lerpValue;
+    bool checkCollision;
+    float changeAmount = 0.01f;
+    [SerializeField] float duration = 1000000f;
+    [SerializeField] float displaceAmount = 0.3f;
+    [SerializeField] float dissapearMultiplier = 10f;
+    BoxCollider colliderToScale;
+    void Start()
+    {
+        toDisplaceMat = gameObject.GetComponent<Renderer>().material;
+        heightInit = toDisplaceMat.GetFloat("_HeightStrength");
+        checkCollision = false;
+        coRout = false;
+        colliderToScale = gameObject.GetComponent<BoxCollider>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(toDisplaceMat.GetFloat("_HeightStrength") > heightInit + (displaceAmount * dissapearMultiplier))
+        {
+            gameObject.SetActive(false);
+        }
+       
+        if(checkCollision)
+        {
+            var lerp = Mathf.PingPong(Time.time, duration) / duration;
+            float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
+            toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
+            colliderToScale.size.Set(colliderToScale.size.x, colliderToScale.size.y +0.01f, colliderToScale.size.z) ;
+            colliderToScale.center.Set(colliderToScale.center.x, colliderToScale.center.y + 0.01f, colliderToScale.center.z);
+
+
+        }
+    }
+
+    IEnumerator LerpPosition(Vector3 targetPosition, float duration)
+    {
+        float time = 0;
+        Vector3 startPosition = transform.position;
+
+        while (time < duration)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = targetPosition;
+    }
+    IEnumerator LerpChange(float displaceAmount)
+    {
+        float newValue = 0;
+        float startPosition = 0;
+        float time = 0;
+        while (changeAmount < displaceAmount)
+        {
+            newValue = Mathf.Lerp(startPosition, displaceAmount, changeAmount / displaceAmount);
+            toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + changeAmount);
+            changeAmount += 0.01f;
+            yield return null;
+        }
+        changeAmount = 0.01f;
+    }
+   /* IEnumerator ChangeLerp()
+    {
+        var lerp = Mathf.PingPong(Time.time, duration) / duration;
+        float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
+        toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
+        if (newValue == displaceAmount)
+        {
+            checkCollision = false;
+        }
+    }*/
+    private void OnTriggerEnter(Collider collision)
+    {
+        if(collision.gameObject.CompareTag("Hand"))
+        {
+            // StartCoroutine("LerpChange", displaceAmount);
+
+            checkCollision = true;
+
+
+        }
+    }
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Hand"))
+        {
+            checkCollision = false;
+        }
+    }
+
+}
