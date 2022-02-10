@@ -25,7 +25,7 @@ Material:
   m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
     _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
     _VERTEX_COLOR_MULTIPLY
-  m_LightmapFlags: 4
+  m_LightmapFlags: 6
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2000
@@ -143,7 +143,7 @@ Material:
     - _TessellationMode: 1
     - _TessellationPhongShape: 0
     - _TessellationPostPro: 0
-    - _TessellationScale: 0.862
+    - _TessellationScale: 0.62
     - _TessellationTriangleClipBias: 0.1
     - _TessellationTriangleClipping: 1
     - _VertexColor: 0
