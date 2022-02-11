@@ -13,11 +13,14 @@ public class VertexDisplacement : MonoBehaviour
     bool coRout;
     float lerpValue;
     bool checkCollision;
+    bool isDissapeared = false;
     float changeAmount = 0.01f;
     [SerializeField] float duration = 1000000f;
     [SerializeField] float displaceAmount = 0.3f;
-    [SerializeField] float dissapearMultiplier = 10f;
+    [SerializeField] float dissapearMultiplier = 8f;
     BoxCollider colliderToScale;
+    [SerializeField] const float deletionSpeed = 0.8f;
+    [SerializeField] const float colliderBounds = 0.015f;
     void Start()
     {
         toDisplaceMat = gameObject.GetComponent<Renderer>().material;
@@ -32,21 +35,39 @@ public class VertexDisplacement : MonoBehaviour
     {
         if(toDisplaceMat.GetFloat("_HeightStrength") > heightInit + (displaceAmount * dissapearMultiplier))
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            isDissapeared = true;
+            //checkCollision = false;
+            colliderToScale.size.Set(colliderToScale.size.x, colliderToScale.size.y + colliderBounds, colliderToScale.size.z);
+            colliderToScale.center.Set(colliderToScale.center.x, colliderToScale.center.y + colliderBounds, colliderToScale.center.z);
         }
        
-        if(checkCollision)
+        if(checkCollision && toDisplaceMat.color.a > 0.3f)
         {
             var lerp = Mathf.PingPong(Time.time, duration) / duration;
             float newValue = Mathf.Lerp(0f, displaceAmount, lerp);
             toDisplaceMat.SetFloat("_HeightStrength", toDisplaceMat.GetFloat("_HeightStrength") + newValue);
-            colliderToScale.size.Set(colliderToScale.size.x, colliderToScale.size.y +0.01f, colliderToScale.size.z) ;
-            colliderToScale.center.Set(colliderToScale.center.x, colliderToScale.center.y + 0.01f, colliderToScale.center.z);
+            colliderToScale.size.Set(colliderToScale.size.x, colliderToScale.size.y + colliderBounds, colliderToScale.size.z) ;
+            colliderToScale.center.Set(colliderToScale.center.x, colliderToScale.center.y + colliderBounds, colliderToScale.center.z);
 
 
         }
     }
+    void FixedUpdate()
+    {
+        if(isDissapeared)
+        {
+            Debug.Log("maerial color before:" + toDisplaceMat.color.a);
 
+            toDisplaceMat.color = new Color(toDisplaceMat.color.r, toDisplaceMat.color.g, toDisplaceMat.color.b, Mathf.PingPong(Time.time * deletionSpeed, 1));
+            Debug.Log("maerial color:" + toDisplaceMat.color.a);
+
+            if(toDisplaceMat.color.a == 0)
+            {
+                gameObject.SetActive(false);
+            }
+        }
+    }
     IEnumerator LerpPosition(Vector3 targetPosition, float duration)
     {
         float time = 0;

@@ -22,16 +22,17 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LsCaveMat2 11
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
-  m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
-    _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
-    _VERTEX_COLOR_MULTIPLY
+  m_ShaderKeywords: _ALPHATEST_ON _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP
+    _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING
+    _TESSELLATION_EDGE _VERTEX_COLOR_MULTIPLY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 3000
   stringTagMap:
-    RenderType: Opaque
-  disabledShaderPasses: []
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -100,7 +101,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaClip: 0
+    - _AlphaClip: 1
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -109,7 +110,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EnvironmentReflections: 1
     - _GeometryCustomST: 0
     - _GeometryCustomUVChannel: 0
@@ -131,8 +132,8 @@ Material:
     - _Smoothness: 0.637
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _Surface: 0
+    - _SrcBlend: 5
+    - _Surface: 1
     - _TessellationDistanceMax: 10
     - _TessellationDistanceMin: 1
     - _TessellationEdgeDistanceOffset: 2.77
@@ -150,7 +151,7 @@ Material:
     - _VertexColorBlending: 1
     - _VertexColorMode: 0
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
