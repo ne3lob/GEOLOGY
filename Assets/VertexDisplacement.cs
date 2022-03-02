@@ -21,6 +21,7 @@ public class VertexDisplacement : MonoBehaviour
     BoxCollider colliderToScale;
     [SerializeField] const float deletionSpeed = 0.8f;
     [SerializeField] const float colliderBounds = 0.015f;
+    GameObject light;
     void Start()
     {
         toDisplaceMat = gameObject.GetComponent<Renderer>().material;
@@ -112,7 +113,8 @@ public class VertexDisplacement : MonoBehaviour
             // StartCoroutine("LerpChange", displaceAmount);
 
             checkCollision = true;
-
+            light =  collision.gameObject.transform.GetChild(3).gameObject;
+            light.SetActive(true);
 
         }
     }
@@ -121,6 +123,8 @@ public class VertexDisplacement : MonoBehaviour
         if (collision.gameObject.CompareTag("Hand"))
         {
             checkCollision = false;
+            light.SetActive(false);
+            
         }
     }
 

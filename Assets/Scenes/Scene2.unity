@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &14687566
 MeshCollider:
@@ -5627,7 +5627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &475110541
 MeshCollider:
@@ -5776,7 +5776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &488065792
 Transform:
   m_ObjectHideFlags: 0
@@ -5785,7 +5785,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488065791}
   m_LocalRotation: {x: 0.029657265, y: -0.02459592, z: 0.00072998984, w: 0.99925727}
-  m_LocalPosition: {x: -8.199, y: 16.787, z: 122.96}
+  m_LocalPosition: {x: -8.423, y: 15.692, z: 123.297}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1992244776}
@@ -5816,7 +5816,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 0.5
-  m_Range: 4.83
+  m_Range: 3.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -7278,7 +7278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &524764495
 MeshCollider:
@@ -12415,7 +12415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &838028819
 MeshCollider:
@@ -12450,7 +12450,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2cf0c492e949ef4da58928b454da2a5, type: 2}
+  - {fileID: 2100000, guid: 398b294adb6149447894d1efaddba1d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12946,7 +12946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &907807032
 MeshCollider:
@@ -12981,7 +12981,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f2cf0c492e949ef4da58928b454da2a5, type: 2}
+  - {fileID: 2100000, guid: 31f1c1c1aba6cf84ba3e8a675d7b20cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19173,7 +19173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &1508840135
 MeshCollider:
@@ -19377,7 +19377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &1537708529
 MeshCollider:
@@ -21996,7 +21996,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732267740317783}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 741778c83581b744dab40958030f4d44, type: 3}
   m_Name: 
@@ -22096,7 +22096,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749329976}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 741778c83581b744dab40958030f4d44, type: 3}
   m_Name: 
@@ -22629,7 +22629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 1800
-  displaceAmount: 0.3
+  displaceAmount: 0.27
   dissapearMultiplier: 13
 --- !u!64 &1923833310
 MeshCollider:
