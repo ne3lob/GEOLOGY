@@ -46,9 +46,9 @@ public class ButtonVr : MonoBehaviour
         }
     }
 
-    public void Pressed()
+    public void Pressed(int Scene)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(Scene);
         scriptFadeIn.NewLevel();
     }
 }
