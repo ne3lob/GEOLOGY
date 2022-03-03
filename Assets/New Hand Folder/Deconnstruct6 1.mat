@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6386257999478241439
+--- !u!114 &-1010381495557058672
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: default
+  m_Name: Deconnstruct6 1
   m_Shader: {fileID: -6465566751694194690, guid: f1fcec6898b750c419d6eb736161553b, type: 3}
   m_ShaderKeywords: _METALLICSPECGLOSSMAP
   m_LightmapFlags: 4
@@ -33,7 +33,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1225415db7cc4e02aff8087d9b1e4200:
-        m_Texture: {fileID: 2800000, guid: 52a3bbc45c4495045bbcfa8ee008add2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33ae9d11a601c3443970acafa682b0f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_e8d8a48607e345b2ad3141b0226dcaf4:
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 52a3bbc45c4495045bbcfa8ee008add2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33ae9d11a601c3443970acafa682b0f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -65,11 +65,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 52a3bbc45c4495045bbcfa8ee008add2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 33ae9d11a601c3443970acafa682b0f4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 48941a5ba0135374fabcdebc660472d5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 898e9f7c7928552468cbc1c8d1096368, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -97,10 +97,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Oppacity: 0.82469004
+    - Oppacity: 0.15
     - Vector1_15892be2674f470eb593e62f0ad3efd5: 0
     - Vector1_2f3c8068c9fd41548e78533a891e05d9: 0
-    - Vector1_7bdb7b3241f347d382986cfd01f904c6: 0.5
     - Vector1_97713c60d14048d499a500ebd9f90243: 0
     - _AlphaClip: 0
     - _Blend: 0
@@ -113,27 +112,25 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0
     - _Glossiness: 0
-    - _GlossyReflections: 1
+    - _GlossyReflections: 0
     - _Metallic: 0
-    - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.02
+    - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - Color_a558056d925a44e5a7cfd16d76b10a5b: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
