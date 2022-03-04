@@ -15,13 +15,14 @@ public class ButtonOpener : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(walls != null)
         {
             foreach (GameObject a in walls)
             {
-                if (!a.activeSelf) ;
+                Debug.Log(a.name + " " + a.activeSelf);
+                if (!a.activeSelf) 
                 {
                     deletedCount += 1;
                     walls.Remove(a);
