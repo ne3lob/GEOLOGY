@@ -8,7 +8,7 @@ public class RotationAround : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(ShowAndHide(button, 5.0f));
+        StartCoroutine(ShowAndHide(button, 7.0f));
     }
 
     // Update is called once per frame
