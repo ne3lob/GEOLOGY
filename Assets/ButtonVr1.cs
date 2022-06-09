@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class ButtonVr : MonoBehaviour
+public class ButtonVr1 : MonoBehaviour
 {
     public GameObject button;
     public UnityEvent onPress;
@@ -17,11 +17,13 @@ public class ButtonVr : MonoBehaviour
 
     private bool isPressed;
     public StartLevel scriptFadeIn;
+    [SerializeField] public bool finishingStarted;
 
     // Start is called before the first frame update
     void Start()
     {
         isPressed = false;
+        finishingStarted = false;
     }
 
     // Update is called once per frame
@@ -48,9 +50,16 @@ public class ButtonVr : MonoBehaviour
 
     public void Pressed(int Scene)
     {
-        
-        
-        SceneManager.LoadScene(Scene);
-        scriptFadeIn.NewLevel();
+        finishingStarted = true;
+   
     }
+    public void IsFinishedYet(int Scene)
+    {
+        if(finishingStarted)
+        {
+            SceneManager.LoadScene(Scene);
+            scriptFadeIn.NewLevel();
+        }
+    }
+ 
 }
