@@ -724,10 +724,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -131.323
       objectReference: {fileID: 0}
+    - target: {fileID: -6180623827543959235, guid: 7c1b50774c5f25b4a8db04c60ef90002, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: 5eea117cabe169745ad61eb744a295f1, type: 3}
     - target: {fileID: 919132149155446097, guid: 7c1b50774c5f25b4a8db04c60ef90002, type: 3}
       propertyPath: m_Name
       value: ReducedNewRock
       objectReference: {fileID: 0}
+    - target: {fileID: 3826243528184748876, guid: 7c1b50774c5f25b4a8db04c60ef90002, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -2840136634868304333, guid: 5eea117cabe169745ad61eb744a295f1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c1b50774c5f25b4a8db04c60ef90002, type: 3}
 --- !u!1 &90032410
@@ -2333,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.032
       objectReference: {fileID: 0}
+    - target: {fileID: -6180623827543959235, guid: 28645a9b7eaaff04fa8c7a4cc019069c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: b65c0c067e272824eb0b2007933d72fc, type: 3}
     - target: {fileID: -4414262051886069287, guid: 28645a9b7eaaff04fa8c7a4cc019069c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2590,6 +2602,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.82
       objectReference: {fileID: 0}
+    - target: {fileID: -6180623827543959235, guid: fef60ba355708ab47b581f44e94e646a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: c3c15f4efcaf69c48bef71d62dd2ebb1, type: 3}
     - target: {fileID: -4414262051886069287, guid: fef60ba355708ab47b581f44e94e646a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -20702,6 +20718,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -12.559
       objectReference: {fileID: 0}
+    - target: {fileID: -6180623827543959235, guid: 7f705202f327349488838b9d467140ec, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2432090755550338912, guid: d07185afd97568a4094471694987a0ea, type: 3}
     - target: {fileID: -4414262051886069287, guid: 7f705202f327349488838b9d467140ec, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
