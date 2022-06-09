@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Oppacity: 0.052157342
+    - Oppacity: 1.8968437
     - Vector1_15892be2674f470eb593e62f0ad3efd5: 0
     - Vector1_2f3c8068c9fd41548e78533a891e05d9: 0
     - Vector1_7bdb7b3241f347d382986cfd01f904c6: 0.2
