@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hand
   - Wall
+  - Open
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - city
   - Interactive
   - Hands
-  - 
+  - trigger level
   - 
   - 
   - 

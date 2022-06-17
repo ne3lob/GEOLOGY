@@ -2,18 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class MenuStart : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject NextLevel;
-    public bool go = false;
-    
-
     void Update()
     {
         // Press the space key to start coroutine
-        if (go == true)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             // Use a coroutine to load the Scene in the background
             StartCoroutine(LoadYourAsyncScene());
@@ -22,25 +17,17 @@ public class MenuStart : MonoBehaviour
 
     IEnumerator LoadYourAsyncScene()
     {
-        yield return new WaitForSeconds(3);
+        // The Application loads the Scene in the background as the current Scene runs.
+        // This is particularly good for creating loading screens.
+        // You could also load the Scene by using sceneBuildIndex. In this case Scene2 has
+        // a sceneBuildIndex of 1 as shown in Build Settings.
+
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene1");
-        
 
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)
         {
             yield return null;
-        }
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "Open")
-        {
-            NextLevel.SetActive(true);
-            go = true;
-            other.gameObject.SetActive(false);
-            Debug.Log("'DAAAA");
         }
     }
 }
