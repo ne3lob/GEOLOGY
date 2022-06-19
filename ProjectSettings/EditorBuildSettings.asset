@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Oculus/SampleFramework/Usage/StartScene.unity
+    guid: 071fba5195bd4b04eab8668985aa1683
+  - enabled: 1
     path: Assets/0AllLevels/Start.unity
     guid: 8823609ad55096d4e8334aa76281637f
   - enabled: 1
