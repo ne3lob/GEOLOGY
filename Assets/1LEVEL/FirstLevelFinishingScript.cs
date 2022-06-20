@@ -42,9 +42,6 @@ public class FirstLevelFinishingScript : MonoBehaviour
             }
 
         }
-
-       
-
     }
     void GoToTargetAndShrink()
     {
