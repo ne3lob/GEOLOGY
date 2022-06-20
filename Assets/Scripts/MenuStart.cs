@@ -27,6 +27,7 @@ public class MenuStart : MonoBehaviour
         {
             // Use a coroutine to load the Scene in the background
             StartCoroutine(LoadYourAsyncScene());
+            go = false;
         }
     }
 

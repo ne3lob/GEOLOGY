@@ -6672,7 +6672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620889390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.18, y: 1.214, z: 0.566}
+  m_LocalPosition: {x: -0.178, y: 1.068, z: 1.048}
   m_LocalScale: {x: 0.2997781, y: 0.2997781, z: 0.2997781}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6767,7 +6767,7 @@ MonoBehaviour:
   lookAtTransform: {fileID: 0}
   lookAtPosition: {x: 0, y: 0, z: 0}
   lookAhead: 0.01
-  autoPlay: 1
+  autoPlay: 0
   autoKill: 1
   relative: 0
   isLocal: 0
@@ -6780,11 +6780,11 @@ MonoBehaviour:
   upDirection: {x: 0, y: 1, z: 0}
   tweenRigidbody: 0
   wps:
-  - {x: -0.50327146, y: 1.4051461, z: 0.71140265}
-  - {x: -1.5154582, y: 1.7938132, z: 1.7085934}
-  - {x: -2.463864, y: 2.0924878, z: 3.0274944}
+  - {x: -0.31281805, y: 1.3674216, z: 1.9252064}
+  - {x: -0.8379433, y: 1.941, z: 2.79401}
+  - {x: -1.808981, y: 2.1530108, z: 3.6019955}
   - {x: -2.4084532, y: 2.541689, z: 3.9116435}
-  - {x: -2.8322928, y: 2.8307884, z: 4.8483496}
+  - {x: -2.7462983, y: 2.78827, z: 4.816533}
   - {x: -2.7654076, y: 2.701252, z: 6.034988}
   - {x: -2.8558583, y: 2.7021537, z: 7.2853928}
   - {x: -2.9673772, y: 2.417478, z: 8.237346}
@@ -6794,23 +6794,23 @@ MonoBehaviour:
   path:
     wpLengths:
     - 0
-    - 0.4153267
-    - 1.4747175
-    - 1.6576347
-    - 1.0104473
-    - 1.0774709
-    - 1.2005697
-    - 1.255104
+    - 0.94013083
+    - 1.1732124
+    - 1.2853383
+    - 0.79046285
+    - 1.0089774
+    - 1.2243425
+    - 1.2548069
     - 1.030133
     - 3.749707
     - 2.2044692
     wps:
-    - {x: -0.18, y: 1.214, z: 0.566}
-    - {x: -0.50327146, y: 1.4051461, z: 0.71140265}
-    - {x: -1.5154582, y: 1.7938132, z: 1.7085934}
-    - {x: -2.463864, y: 2.0924878, z: 3.0274944}
+    - {x: -0.178, y: 1.068, z: 1.048}
+    - {x: -0.31281805, y: 1.3674216, z: 1.9252064}
+    - {x: -0.8379433, y: 1.941, z: 2.79401}
+    - {x: -1.808981, y: 2.1530108, z: 3.6019955}
     - {x: -2.4084532, y: 2.541689, z: 3.9116435}
-    - {x: -2.8322928, y: 2.8307884, z: 4.8483496}
+    - {x: -2.7462983, y: 2.78827, z: 4.816533}
     - {x: -2.7654076, y: 2.701252, z: 6.034988}
     - {x: -2.8558583, y: 2.7021537, z: 7.2853928}
     - {x: -2.9673772, y: 2.417478, z: 8.237346}
@@ -6820,11 +6820,11 @@ MonoBehaviour:
     subdivisionsXSegment: 10
     subdivisions: 110
     controlPoints:
-    - a: {x: -0.50327146, y: 1.4051461, z: 0.71140265}
+    - a: {x: -0.31281805, y: 1.3674216, z: 1.9252064}
       b: {x: 0, y: 0, z: 0}
     - a: {x: -0.6113081, y: 1.2526424, z: 15.860574}
       b: {x: 0, y: 0, z: 0}
-    length: 15.076036
+    length: 14.661943
     isFinalized: 1
     timesTable:
     - 0.009090909
@@ -6938,116 +6938,116 @@ MonoBehaviour:
     - 0.99090904
     - 0.99999994
     lengthsTable:
-    - 0.0035075655
-    - 0.013711099
-    - 0.03026589
-    - 0.053019676
-    - 0.08202674
-    - 0.11755216
-    - 0.16006467
-    - 0.21021968
-    - 0.26883462
-    - 0.3368612
-    - 0.415357
-    - 0.5075754
-    - 0.61455965
-    - 0.7341685
-    - 0.86426103
-    - 1.0027004
-    - 1.1473552
-    - 1.2961024
-    - 1.4468313
-    - 1.5974464
-    - 1.7458758
-    - 1.8900785
-    - 2.0364072
-    - 2.1909635
-    - 2.3512979
-    - 2.514917
-    - 2.6793113
-    - 2.8419864
-    - 3.0004864
-    - 3.1524332
-    - 3.2955792
-    - 3.427896
-    - 3.547739
-    - 3.655201
-    - 3.7541833
-    - 3.8482978
-    - 3.9399717
-    - 4.0304723
-    - 4.120176
-    - 4.2089505
-    - 4.296574
-    - 4.3831744
-    - 4.4696937
-    - 4.5583067
-    - 4.6500196
-    - 4.744029
-    - 4.8405223
-    - 4.9391704
-    - 5.0393286
-    - 5.1402063
-    - 5.241012
-    - 5.341093
-    - 5.4400864
-    - 5.5380893
-    - 5.6358356
-    - 5.734846
-    - 5.836404
-    - 5.941008
-    - 6.04863
-    - 6.1588726
-    - 6.271106
-    - 6.3845735
-    - 6.498491
-    - 6.6121264
-    - 6.724893
-    - 6.836442
-    - 6.9489245
-    - 7.0641108
-    - 7.1812897
-    - 7.2996745
-    - 7.418426
-    - 7.5366807
-    - 7.653574
-    - 7.7682605
-    - 7.879945
-    - 7.9879074
-    - 8.091556
-    - 8.181448
-    - 8.254051
-    - 8.316922
-    - 8.376021
-    - 8.435751
-    - 8.500267
-    - 8.574904
-    - 8.666527
-    - 8.782911
-    - 8.932049
-    - 9.121819
-    - 9.362686
-    - 9.653533
-    - 9.984496
-    - 10.345569
-    - 10.726691
-    - 11.11778
-    - 11.508757
-    - 11.889567
-    - 12.250205
-    - 12.580767
-    - 12.871541
-    - 13.127046
-    - 13.360774
-    - 13.576688
-    - 13.778569
-    - 13.969988
-    - 14.154281
-    - 14.334587
-    - 14.513906
-    - 14.695203
-    - 14.881514
-    - 15.076036
+    - 0.0143704945
+    - 0.05480964
+    - 0.11731644
+    - 0.1979025
+    - 0.292597
+    - 0.39745358
+    - 0.5085622
+    - 0.62206775
+    - 0.7342027
+    - 0.84134686
+    - 0.9401462
+    - 1.0359426
+    - 1.1357876
+    - 1.2391598
+    - 1.3454118
+    - 1.4538316
+    - 1.5636897
+    - 1.6742846
+    - 1.7849832
+    - 1.8952659
+    - 2.0047777
+    - 2.1133835
+    - 2.2246358
+    - 2.3415883
+    - 2.463133
+    - 2.5878131
+    - 2.7139513
+    - 2.8397393
+    - 2.9633007
+    - 3.082748
+    - 3.1962407
+    - 3.302063
+    - 3.3987505
+    - 3.4863198
+    - 3.567145
+    - 3.6431494
+    - 3.7156875
+    - 3.7856147
+    - 3.853454
+    - 3.9196393
+    - 3.9848003
+    - 4.050069
+    - 4.117327
+    - 4.1892877
+    - 4.2669544
+    - 4.3488235
+    - 4.4345055
+    - 4.52355
+    - 4.6154637
+    - 4.709733
+    - 4.8058324
+    - 4.903239
+    - 5.001439
+    - 5.0999427
+    - 5.19829
+    - 5.298162
+    - 5.4016666
+    - 5.508692
+    - 5.6188617
+    - 5.7316203
+    - 5.8462954
+    - 5.962148
+    - 6.0784197
+    - 6.1943674
+    - 6.309306
+    - 6.4226503
+    - 6.5363946
+    - 6.652416
+    - 6.770019
+    - 6.888462
+    - 7.006975
+    - 7.1247783
+    - 7.241099
+    - 7.35519
+    - 7.4663496
+    - 7.573948
+    - 7.6774635
+    - 7.7673554
+    - 7.8399587
+    - 7.9028296
+    - 7.9619284
+    - 8.021658
+    - 8.086174
+    - 8.160811
+    - 8.252434
+    - 8.368818
+    - 8.517956
+    - 8.707726
+    - 8.948593
+    - 9.23944
+    - 9.570403
+    - 9.931476
+    - 10.312598
+    - 10.703687
+    - 11.094664
+    - 11.475474
+    - 11.836112
+    - 12.166674
+    - 12.457448
+    - 12.712953
+    - 12.946681
+    - 13.162595
+    - 13.364476
+    - 13.555895
+    - 13.740188
+    - 13.920494
+    - 14.0998125
+    - 14.28111
+    - 14.467421
+    - 14.661943
   inspectorMode: 0
   pathType: 1
   handlesType: 0
@@ -7057,7 +7057,7 @@ MonoBehaviour:
   showIndexes: 1
   showWpLength: 0
   pathColor: {r: 1, g: 1, b: 1, a: 0.5}
-  lastSrcPosition: {x: -0.18, y: 1.214, z: 0.566}
+  lastSrcPosition: {x: -0.178, y: 1.068, z: 1.048}
   lastSrcRotation: {x: 0, y: 0, z: 0, w: 1}
   wpsDropdown: 0
   dropToFloorOffset: 0
@@ -8672,14 +8672,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963343058}
-  m_LocalRotation: {x: -0, y: -0.09694029, z: -0, w: 0.9952902}
-  m_LocalPosition: {x: 0, y: 0.333, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1962981808}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -11.126, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1963041012
 Transform:
   m_ObjectHideFlags: 0
@@ -8782,6 +8782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963041008}
   - component: {fileID: 20000012359651578}
+  - component: {fileID: 1963343057}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -8789,6 +8790,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1963343057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963343056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1963343058
 GameObject:
   m_ObjectHideFlags: 0
@@ -8854,6 +8887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963041014}
   - component: {fileID: 20000010407939936}
+  - component: {fileID: 1963343064}
   m_Layer: 0
   m_Name: RightEyeAnchor
   m_TagString: Untagged
@@ -8893,6 +8927,38 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1963343064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963343062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!4 &1963634907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 442d5b4503ed83c4897ef44659446587, type: 3}
@@ -8905,7 +8971,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963343060}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
@@ -9002,7 +9068,7 @@ MonoBehaviour:
   virtualGreenScreenDepthTolerance: 0.2
   mrcActivationMode: 0
   isInsightPassthroughEnabled: 0
-  _trackingOriginType: 2
+  _trackingOriginType: 1
   usePositionTracking: 1
   useRotationTracking: 1
   useIPDInPositionTracking: 1

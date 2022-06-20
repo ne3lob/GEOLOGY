@@ -15,7 +15,8 @@ public class SpawnObject : MonoBehaviour
     public int objectsCount;
     public int objectslimit =25;
     float timer = 0;
-    private float timerEndLevel = 80f;
+    float timerNextLevel = 0;
+    public float timerEndLevel = 230f;
     public OVROverlay overlay;
     public OVROverlay text;
 
@@ -31,12 +32,11 @@ public class SpawnObject : MonoBehaviour
     {
         if (objectsCount > objectslimit)
         {
-            
             return;
         }
 
         timer += Time.deltaTime;
-        timerEndLevel += Time.deltaTime;
+        timerNextLevel+= Time.deltaTime;
         
         if (timer > 4f)
         {
@@ -44,7 +44,7 @@ public class SpawnObject : MonoBehaviour
             timer = 0f;
             
         }
-        else if (timer > timerEndLevel)
+        else if (timerNextLevel > timerEndLevel)
         {
             overlay.hidden = false;
             text.hidden = false;
@@ -70,7 +70,6 @@ public class SpawnObject : MonoBehaviour
         yield return new WaitForSeconds(3);
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene1");
         
-
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)
         {

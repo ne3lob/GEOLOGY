@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Open
   - First
+  - RightHand
   layers:
   - Default
   - TransparentFX

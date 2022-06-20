@@ -23,8 +23,8 @@ Material:
   m_Name: LsCaveMat2 5
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
   m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
-    _OCCLUSIONMAP _PARALLAXMAP _TESSELLATIONMAP _TESSELLATION_CLIPPING _TESSELLATION_EDGE
-    _VERTEX_COLOR_MULTIPLY
+    _OCCLUSIONMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _TESSELLATIONMAP _TESSELLATION_CLIPPING
+    _TESSELLATION_EDGE _VERTEX_COLOR_MULTIPLY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -127,7 +127,7 @@ Material:
     - _OcclusionStrength: 0.5
     - _Parallax: 0.0524
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _Smoothness: 0.657
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
