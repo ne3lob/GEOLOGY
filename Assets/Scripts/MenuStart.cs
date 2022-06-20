@@ -33,7 +33,7 @@ public class MenuStart : MonoBehaviour
     IEnumerator LoadYourAsyncScene()
     {
         yield return new WaitForSeconds(3);
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene1");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene1WithFinishing");
         
 
         // Wait until the asynchronous scene fully loads

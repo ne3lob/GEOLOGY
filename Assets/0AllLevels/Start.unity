@@ -6767,7 +6767,7 @@ MonoBehaviour:
   lookAtTransform: {fileID: 0}
   lookAtPosition: {x: 0, y: 0, z: 0}
   lookAhead: 0.01
-  autoPlay: 0
+  autoPlay: 1
   autoKill: 1
   relative: 0
   isLocal: 0

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1624128214392711821}
   - component: {fileID: -5335962217798860561}
-  m_Layer: 0
-  m_Name: GameObject (6)
-  m_TagString: Untagged
+  m_Layer: 12
+  m_Name: Prefab 2
+  m_TagString: First
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 4157256893676552566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.011085141, y: 0.011085141, z: 0.011085141}
+  m_LocalScale: {x: 0.006050935, y: 0.006050935, z: 0.006050935}
   m_Children:
   - {fileID: 927509936674159371}
   m_Father: {fileID: 0}
@@ -44,7 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 147da44750d7fd84998040855d2b20b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionToMoveTo: {x: 41.3, y: -20, z: 98}
+  xPos: 0
+  yPos: 0
+  zPos: 0
+  stopMoveToCenter: 0
+  desiredPos: {x: 0, y: 0, z: 0}
 --- !u!1 &4453402498988979716
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,9 +60,10 @@ GameObject:
   - component: {fileID: 927509936674159371}
   - component: {fileID: 6758021961218654080}
   - component: {fileID: 8897317211608887642}
-  m_Layer: 0
+  - component: {fileID: 7041208432290767619}
+  m_Layer: 12
   m_Name: g_Layer_1_Layer_1
-  m_TagString: Untagged
+  m_TagString: First
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,3 +131,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &7041208432290767619
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453402498988979716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.1751912
+  m_Center: {x: -7.6434174, y: -46.99009, z: -51.191105}
