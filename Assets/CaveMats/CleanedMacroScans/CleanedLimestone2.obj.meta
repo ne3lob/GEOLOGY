@@ -3,7 +3,12 @@ guid: 7f705202f327349488838b9d467140ec
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MacroScan2
+    second: {fileID: 2100000, guid: 5080c30cb0bca714fa78e7970f7222aa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
