@@ -1389,9 +1389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cfdcf2fdf91628459ec0800ae863e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerEndLevel: 360
+  timerEndLevel: 300
   overlay: {fileID: 341142747}
   text: {fileID: 341142746}
+  levelChanged: 0
 --- !u!4 &410477050
 Transform:
   m_ObjectHideFlags: 0
