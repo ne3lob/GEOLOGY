@@ -19,12 +19,14 @@ public class SpawnObject : MonoBehaviour
     public float timerEndLevel = 230f;
     public OVROverlay overlay;
     public OVROverlay text;
+    [SerializeField] bool levelChanged = false;
 
     // Start is called before the first frame update
     void Start()
     {
         overlay.hidden = true;
         text.hidden = true;
+        levelChanged = false;
     }
 
     // Update is called once per frame
@@ -44,11 +46,12 @@ public class SpawnObject : MonoBehaviour
             timer = 0f;
             
         }
-        else if (timerNextLevel > timerEndLevel)
+        else if (timerNextLevel > timerEndLevel && !levelChanged)
         {
             overlay.hidden = false;
             text.hidden = false;
             StartCoroutine(LoadYourAsyncScene());
+            levelChanged = true;
         }
     }
 
@@ -75,5 +78,6 @@ public class SpawnObject : MonoBehaviour
         {
             yield return null;
         }
+        levelChanged = false;
     }
 }
