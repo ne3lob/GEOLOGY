@@ -22,8 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: LsCaveMat2 5
   m_Shader: {fileID: 4800000, guid: db33860adb24fd440a4cec1a57169a89, type: 3}
-  m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _HEIGHTMAP _METALLICSPECGLOSSMAP _NORMALMAP
-    _OCCLUSIONMAP _PARALLAXMAP _RECEIVE_SHADOWS_OFF _TESSELLATIONMAP _TESSELLATION_CLIPPING
+  m_ShaderKeywords: _GEOMETRY_UV_CHANNEL_0 _RECEIVE_SHADOWS_OFF _TESSELLATION_CLIPPING
     _TESSELLATION_EDGE _VERTEX_COLOR_MULTIPLY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -64,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 45a35b16fa2d1ed46b16ea464fc5db1b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
