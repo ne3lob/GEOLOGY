@@ -10,6 +10,8 @@ public class SpawnObject : MonoBehaviour
 {
     public GameObject[] objects;
     public Vector3 center;
+    [SerializeField] GameObject startPositionCamera;
+    Vector3 startPosition;
 
     public Vector3 size;
     public int objectsCount;
@@ -19,12 +21,15 @@ public class SpawnObject : MonoBehaviour
     public float timerEndLevel = 230f;
     public OVROverlay overlay;
     public OVROverlay text;
+    [SerializeField] bool levelChanged = false;
 
     // Start is called before the first frame update
     void Start()
     {
         overlay.hidden = true;
         text.hidden = true;
+        levelChanged = false;
+       // startPosition = startPositionCamera.transform.position;
     }
 
     // Update is called once per frame
@@ -44,11 +49,13 @@ public class SpawnObject : MonoBehaviour
             timer = 0f;
             
         }
-        else if (timerNextLevel > timerEndLevel)
+        else if (timerNextLevel > timerEndLevel && !levelChanged)
         {
-            overlay.hidden = false;
-            text.hidden = false;
-            StartCoroutine(LoadYourAsyncScene());
+           /* overlay.hidden = false;
+            text.hidden = false;*/
+            startPositionCamera.SetActive(true);
+          //  StartCoroutine(LoadYourAsyncScene()); I moved this script to finishing indicator, so after it is setted active, it will use collider to finish, Baris
+            levelChanged = true;
         }
     }
 
@@ -65,6 +72,7 @@ public class SpawnObject : MonoBehaviour
         Gizmos.color = new Color(1, 0, 0, 0.5f);
         Gizmos.DrawCube(transform.localPosition + center, size);
     }
+    /*  moved this script to finishing indicator, so after it is setted active, it will use collider to finish, Baris
     IEnumerator LoadYourAsyncScene()
     {
         yield return new WaitForSeconds(3);
@@ -75,5 +83,6 @@ public class SpawnObject : MonoBehaviour
         {
             yield return null;
         }
-    }
+        levelChanged = false;
+    }*/
 }
