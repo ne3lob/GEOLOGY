@@ -123,38 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &20809872 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7646755b3c2737747809e35f81bf4623, type: 3}
-  m_PrefabInstance: {fileID: 1231054594}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &20809876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20809872}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73802d6cfbe0488428688d4abe463665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 1964164508}
-  scaleRatio: 0.99
-  shrinkRate: 0.15
-  caveTimerScript: {fileID: 394216402}
-  moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
-  rotationDirection: {x: 0, y: 1, z: 0}
-  rotationStarted: 0
-  rotateSpeed: 0.001
-  scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 20
-  stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
-  pointB: {x: 0, y: 0, z: 0}
-  duration: 0
-  whichMovement: 0
 --- !u!1 &24131849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,6 +3098,67 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 20fb5bbc968f40a458532b6ccc7bc726, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fef60ba355708ab47b581f44e94e646a, type: 3}
+--- !u!1001 &212911852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.868
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.369
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.728
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.23593047
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.25522357
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.17124517
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.92188555
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -154.14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 154.33301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22.723022
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b02315aa2c53f694cb9ab269c584c7cc, type: 2}
+    - target: {fileID: 919132149155446097, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_Name
+      value: Ball3 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
 --- !u!1 &225418533
 GameObject:
   m_ObjectHideFlags: 0
@@ -3430,38 +3459,6 @@ Transform:
   m_Father: {fileID: 798787279}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &283696153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7646755b3c2737747809e35f81bf4623, type: 3}
-  m_PrefabInstance: {fileID: 871689718}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &283696157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283696153}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73802d6cfbe0488428688d4abe463665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 1964164508}
-  scaleRatio: 0.99
-  shrinkRate: 0.15
-  caveTimerScript: {fileID: 394216402}
-  moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
-  rotationDirection: {x: 0, y: 1, z: 0}
-  rotationStarted: 0
-  rotateSpeed: 0.001
-  scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 20
-  stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
-  pointB: {x: 0, y: 0, z: 0}
-  duration: 0
-  whichMovement: 0
 --- !u!1001 &284734932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4872,8 +4869,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerNextLevel: 0
-  timerEndLevel: 0
-  movementDurationBeforeFinishing: 10000
+  timerEndLevel: 180
+  movementDurationBeforeFinishing: 180
   overlay: {fileID: 602878295}
   text: {fileID: 1255133460}
   movementStarted: 0
@@ -7379,38 +7376,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 250730377877848739, guid: 191daf6f54eef2640b6aa09fddc4632b, type: 3}
   m_PrefabInstance: {fileID: 2073025537}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &568752903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7646755b3c2737747809e35f81bf4623, type: 3}
-  m_PrefabInstance: {fileID: 1431018634}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &568752907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568752903}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73802d6cfbe0488428688d4abe463665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 1964164508}
-  scaleRatio: 0.99
-  shrinkRate: 0.15
-  caveTimerScript: {fileID: 394216402}
-  moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
-  rotationDirection: {x: 0, y: 1, z: 0}
-  rotationStarted: 0
-  rotateSpeed: 0.001
-  scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 20
-  stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
-  pointB: {x: 0, y: 0, z: 0}
-  duration: 0
-  whichMovement: 0
 --- !u!1 &570869623
 GameObject:
   m_ObjectHideFlags: 0
@@ -7634,6 +7599,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 304621024c351684f8f4eac7e7a7ff8b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f913f91e1b5172643b2633d35723e6b8, type: 2}
     - target: {fileID: 919132149155446097, guid: 304621024c351684f8f4eac7e7a7ff8b, type: 3}
       propertyPath: m_Name
       value: Ball1
@@ -7662,12 +7631,12 @@ MonoBehaviour:
   shrinkRate: 0.15
   caveTimerScript: {fileID: 394216402}
   moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
+  rotationAngle: 0.06
   rotationDirection: {x: 0, y: 1, z: 0}
   rotationStarted: 1
   rotateSpeed: 0.001
   scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 17
+  waitSeconds: 42
   stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
   pointB: {x: 0, y: 0, z: 0}
   duration: 0
@@ -12334,6 +12303,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7f350990ce183444aa97c4ef54ea7dbc, type: 2}
     - target: {fileID: 919132149155446097, guid: d3f20cbd04b98e947a5828d9e34ec900, type: 3}
       propertyPath: m_Name
       value: Ball3
@@ -13349,7 +13322,7 @@ MonoBehaviour:
   shrinkRate: 0.15
   caveTimerScript: {fileID: 394216402}
   moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
+  rotationAngle: 0.09
   rotationDirection: {x: 0, y: 1, z: 0}
   rotationStarted: 1
   rotateSpeed: 0.001
@@ -14403,38 +14376,6 @@ MonoBehaviour:
   pointB: {x: 0, y: 0, z: 0}
   duration: 0
   whichMovement: 1
---- !u!1 &1046443474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7646755b3c2737747809e35f81bf4623, type: 3}
-  m_PrefabInstance: {fileID: 208980367}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1046443478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046443474}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73802d6cfbe0488428688d4abe463665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 1964164508}
-  scaleRatio: 0.99
-  shrinkRate: 0.15
-  caveTimerScript: {fileID: 394216402}
-  moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
-  rotationDirection: {x: 0, y: 1, z: 0}
-  rotationStarted: 0
-  rotateSpeed: 0.001
-  scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 20
-  stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
-  pointB: {x: 0, y: 0, z: 0}
-  duration: 0
-  whichMovement: 0
 --- !u!1 &1046706346
 GameObject:
   m_ObjectHideFlags: 0
@@ -16001,16 +15942,16 @@ MonoBehaviour:
   shrinkRate: 0.15
   caveTimerScript: {fileID: 394216402}
   moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
+  rotationAngle: 0.2
   rotationDirection: {x: 0, y: 1, z: 0}
   rotationStarted: 0
   rotateSpeed: 0.001
   scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 17
+  waitSeconds: 26
   stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
   pointB: {x: 0, y: 0, z: 0}
   duration: 0
-  whichMovement: 2
+  whichMovement: 1
 --- !u!1001 &1237931665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17840,43 +17781,11 @@ MonoBehaviour:
   rotationStarted: 0
   rotateSpeed: 0.001
   scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 17
+  waitSeconds: 30
   stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
   pointB: {x: 0, y: 0, z: 0}
   duration: 0
-  whichMovement: 2
---- !u!1 &1361652017 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7646755b3c2737747809e35f81bf4623, type: 3}
-  m_PrefabInstance: {fileID: 1284711762}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1361652021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1361652017}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73802d6cfbe0488428688d4abe463665, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTransform: {fileID: 1964164508}
-  scaleRatio: 0.99
-  shrinkRate: 0.15
-  caveTimerScript: {fileID: 394216402}
-  moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
-  rotationDirection: {x: 0, y: 1, z: 0}
-  rotationStarted: 0
-  rotateSpeed: 0.001
-  scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 20
-  stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
-  pointB: {x: 0, y: 0, z: 0}
-  duration: 0
-  whichMovement: 0
+  whichMovement: 1
 --- !u!1 &1361960735
 GameObject:
   m_ObjectHideFlags: 0
@@ -17962,6 +17871,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4573051164ab0a14190aa1a87c5afec1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f913f91e1b5172643b2633d35723e6b8, type: 2}
     - target: {fileID: 919132149155446097, guid: 4573051164ab0a14190aa1a87c5afec1, type: 3}
       propertyPath: m_Name
       value: Ball2
@@ -22572,12 +22485,12 @@ MonoBehaviour:
   shrinkRate: 0.15
   caveTimerScript: {fileID: 394216402}
   moveSpeedToPlayer: 0.5
-  rotationAngle: 0.5
+  rotationAngle: 0.05
   rotationDirection: {x: 0, y: 1, z: 0}
   rotationStarted: 0
   rotateSpeed: 0.001
   scale: {x: 1, y: 1, z: 1}
-  waitSeconds: 17
+  waitSeconds: 23
   stayAwayDistance: {x: 1.76, y: 1.13, z: 3.9}
   pointB: {x: 0, y: 0, z: 0}
   duration: 0
