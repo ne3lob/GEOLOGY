@@ -8,13 +8,14 @@ public class CaveTimer: MonoBehaviour
 {
 
     float timer = 0;
-    float timerNextLevel = 0;
+    [SerializeField] float timerNextLevel = 0;
     [SerializeField] float timerEndLevel = 230f;
     [SerializeField] float movementDurationBeforeFinishing = 150f;
     public OVROverlay overlay;
     public OVROverlay text;
     public bool movementStarted;
     [SerializeField] bool levelChanged = false;
+    [SerializeField] ButtonOpener endingScript;
     
     // Start is called before the first frame update
     void Start()
@@ -29,23 +30,27 @@ public class CaveTimer: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timerNextLevel += Time.deltaTime;
+        if(endingScript.erasionEnded)
+        {
+            timerNextLevel += Time.deltaTime;
 
-        if (timerNextLevel > timerEndLevel && !movementStarted)
-        {
-            //ActivateMovement();
-            movementStarted = true;
-           
-            timerNextLevel = 0;
-        }
-        if(movementStarted)
-        {
-            if(timerNextLevel > movementDurationBeforeFinishing && !levelChanged)
+            if (timerNextLevel > timerEndLevel && !movementStarted)
             {
-                FinishLevel();
-                levelChanged = true;
+                //ActivateMovement();
+                movementStarted = true;
+
+                timerNextLevel = 0;
+            }
+            if (movementStarted)
+            {
+                if (timerNextLevel > movementDurationBeforeFinishing && !levelChanged)
+                {
+                    FinishLevel();
+                    levelChanged = true;
+                }
             }
         }
+       
     }
     void FinishLevel()
     {

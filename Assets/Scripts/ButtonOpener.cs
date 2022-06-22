@@ -8,10 +8,11 @@ public class ButtonOpener : MonoBehaviour
     [SerializeField] List<GameObject> walls;
     [SerializeField] int deletedCount;
     const int wallsErased = 8;
-    [SerializeField] GameObject but;
+    public bool erasionEnded;
     void Start()
     {
         deletedCount = 0;
+        erasionEnded = false;
     }
 
     // Update is called once per frame
@@ -32,7 +33,7 @@ public class ButtonOpener : MonoBehaviour
        
         if (deletedCount == wallsErased)
         {
-            but.SetActive(true);
+            erasionEnded = true;
         }
     }
    
