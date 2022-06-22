@@ -38,7 +38,7 @@ public class TimerThirdLevel : MonoBehaviour
     IEnumerator LoadYourAsyncScene()
     {
         yield return new WaitForSeconds(3);
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Scene1WithFinishing");
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Start");
 
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)

@@ -4872,8 +4872,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerNextLevel: 0
-  timerEndLevel: 0
-  movementDurationBeforeFinishing: 10000
+  timerEndLevel: 60
+  movementDurationBeforeFinishing: 30
   overlay: {fileID: 602878295}
   text: {fileID: 1255133460}
   movementStarted: 0

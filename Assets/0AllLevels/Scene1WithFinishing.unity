@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &35339692
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overlay: {fileID: 2397065232777512869}
   text: {fileID: 2397065233177972859}
-  WaitingSec: 120
+  WaitingSec: 60
 --- !u!4 &35339695
 Transform:
   m_ObjectHideFlags: 0
@@ -5050,6 +5050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674990103}
   - component: {fileID: 1674990104}
+  - component: {fileID: 1674990102}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -5057,6 +5058,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1674990102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674990101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0aafdd438eb934f9fa73f138fa01f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlay: {fileID: 2397065232777512869}
+  text: {fileID: 2397065233177972859}
+  WaitingSec: 60
 --- !u!4 &1674990103
 Transform:
   m_ObjectHideFlags: 0
@@ -7461,7 +7477,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2397065233177972857}
   m_LocalRotation: {x: -0.20327878, y: -0.73295903, z: -0.1401597, w: 0.6338802}
-  m_LocalPosition: {x: 40.389, y: -19.264, z: -98.456}
+  m_LocalPosition: {x: 40.117, y: -18.164, z: -98.536}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2397065234742111455}
