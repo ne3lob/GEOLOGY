@@ -186,6 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overlay: {fileID: 2397065232777512869}
   text: {fileID: 2397065233177972859}
+  WaitingSec: 120
 --- !u!4 &35339695
 Transform:
   m_ObjectHideFlags: 0
@@ -10879,7 +10880,7 @@ GameObject:
   - component: {fileID: 4768412854996259080}
   m_Layer: 0
   m_Name: LeftHandAnchor
-  m_TagString: Hand
+  m_TagString: LeftHand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

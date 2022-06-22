@@ -9,6 +9,7 @@ TagManager:
   - Open
   - First
   - RightHand
+  - LeftHand
   layers:
   - Default
   - TransparentFX
