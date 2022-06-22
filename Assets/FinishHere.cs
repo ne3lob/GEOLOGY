@@ -6,18 +6,29 @@ public class FinishHere : MonoBehaviour
 {
     public OVROverlay overlay;
     public OVROverlay text;
-
+    private float timerToNextLevel;
+    [SerializeField] public float WaitingSec;
+    private bool goToCave=false;
     private void Start()
    
         {
-            overlay.hidden = true;
-            text.hidden = true;
+            this.gameObject.SetActive(false);
         }
+
+    private void Update()
+    {
+        timerToNextLevel += Time.deltaTime;
+        if (timerToNextLevel > WaitingSec)
+        {
+            goToCave = true;
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Hand"))
+        if(other.gameObject.CompareTag("Hand")&& goToCave==true)
         {
+            Debug.Log("Tut");
             overlay.hidden = false;
             text.hidden = false;
             StartCoroutine(LoadYourAsyncScene());

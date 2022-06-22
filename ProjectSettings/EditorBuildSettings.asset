@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/0AllLevels/Start.unity
+    guid: 8823609ad55096d4e8334aa76281637f
+  - enabled: 1
+    path: Assets/0AllLevels/Scene1WithFinishing.unity
+    guid: 5f0729851147dff429bc6b97a60d7f3e
+  - enabled: 1
     path: Assets/0AllLevels/StatikCave.unity
     guid: cabea2db7497a2a43a0f1c1fe29c4a57
   - enabled: 1
